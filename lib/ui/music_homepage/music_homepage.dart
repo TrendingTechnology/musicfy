@@ -90,7 +90,7 @@ class _MusicHomepageState extends State<MusicHomepage> {
               appBar: AppBar(
                 automaticallyImplyLeading: false,
                 title: Text(
-                  "Chillify",
+                  "Musicfy",
                   style: TextStyle(
                     color: Color(0xFF274D85),
                     fontWeight: FontWeight.bold,
@@ -171,7 +171,7 @@ class _MusicHomepageState extends State<MusicHomepage> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text(
-            "Chillify",
+            "Musicfy",
             style: TextStyle(
               fontSize: 20,
             ),

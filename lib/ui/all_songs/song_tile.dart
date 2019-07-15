@@ -97,7 +97,7 @@ class SongTile extends StatelessWidget {
                                   overflow: TextOverflow.ellipsis,
                                 ),
                                 Divider(
-                                  height: 10,
+                                  height: 10.0,
                                   color: Colors.transparent,
                                 ),
                                 Text(
@@ -134,6 +134,7 @@ class SongTile extends StatelessWidget {
                       ),
                     ],
                   ),
+                  /*
                   _isSelectedSong
                       ? Row(
                           children: <Widget>[
@@ -195,7 +196,7 @@ class SongTile extends StatelessWidget {
                             ),
                           ],
                         )
-                      : Container(),
+                      : Container(), */
                 ],
               ),
             ),

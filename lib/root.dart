@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context) {
         _globalBloc.permissionsBloc.storagePermissionStatus$.listen(
           (data) {
-            var PermissionStatus;
             if (data == PermissionStatus.granted) {
               _globalBloc.musicPlayerBloc.fetchSongs().then(
                 (_) {
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
       },
       dispose: (BuildContext context, GlobalBloc value) => value.dispose(),
       child: MaterialApp(
-        debugShowCheckedModeBanner: false,
+        title: "Musicfy",
         home: SafeArea(
           child: StreamBuilder<PermissionStatus>(
             stream: _globalBloc.permissionsBloc.storagePermissionStatus$,
