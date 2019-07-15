@@ -1,6 +1,6 @@
 import 'package:fdb/blocs/global.dart';
 import 'package:fdb/common/music_icons.dart';
-import 'package:fdb/models/playerstate.dart';
+import 'package:fdb/utils/playerstate.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,14 +31,14 @@ class SongTile extends StatelessWidget {
           final bool _isSelectedSong = _song == _currentSong;
           return AnimatedContainer(
             duration: Duration(milliseconds: 250),
-            height: 100,
+            height: 100,       
             width: double.infinity,
             decoration: BoxDecoration(
               gradient: _isSelectedSong
                   ? LinearGradient(
                       colors: [
-                        Color(0xFFDDEAF2).withOpacity(0.7),
-                        Colors.white,
+                        Color(0xFF3399ff).withOpacity(0.3),
+                        Color(0xFFFF9933).withOpacity(0.3),
                       ],
                     )
                   : null,

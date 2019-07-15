@@ -2,9 +2,12 @@ import 'package:fdb/blocs/global.dart';
 import 'package:fdb/ui/albums/albums_screen.dart';
 import 'package:fdb/ui/all_songs/all_songs_screen.dart';
 import 'package:fdb/ui/favorites/favorites_screen.dart';
+import 'package:fdb/ui/info/about.dart';
+import 'package:fdb/ui/info/contact.dart';
 import 'package:fdb/ui/music_homepage/bottom_panel.dart';
 import 'package:fdb/ui/now_playing/now_playing_screen.dart';
 import 'package:fdb/ui/search/search_screen.dart';
+import 'package:fdb/utils/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -35,7 +38,7 @@ class _MusicHomepageState extends State<MusicHomepage> {
 
   @override
   Widget build(BuildContext context) {
-    final double _radius = 25.0;
+    final double _radius = 20.0;
     return WillPopScope(
       onWillPop: () {
         if (!_panelController.isPanelClosed()) {
@@ -54,7 +57,7 @@ class _MusicHomepageState extends State<MusicHomepage> {
             child: NowPlayingScreen(controller: _panelController),
           ),
           controller: _panelController,
-          minHeight: 110,
+          minHeight: 105,
           maxHeight: MediaQuery.of(context).size.height,
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(_radius),
@@ -76,8 +79,8 @@ class _MusicHomepageState extends State<MusicHomepage> {
                   0.7,
                 ],
                 colors: [
-                  Color(0xFF47ACE1),
-                  Color(0xFFDF5F9D),
+                  Color(0xFF3399ff),
+                  Color(0xFFFF9933),
                 ],
               ),
             ),
@@ -140,10 +143,24 @@ class _MusicHomepageState extends State<MusicHomepage> {
                       icon: Icon(
                         Icons.search,
                         color: Color(0xFF274D85),
-                        size: 35,
+                        size: 25.0,
                       ),
                     ),
-                  )
+                  ),
+                  //popup menu button
+                  PopupMenuButton<String>(
+                    icon: Icon(Icons.more_vert, color: Color(0xFF274D85),size: 30.0,),
+                    elevation: 5.0,
+                    onSelected: choices,
+                    itemBuilder: (BuildContext context){
+                      return ChoicesConstants.choices.map((String choice){
+                        return PopupMenuItem<String>(
+                          value: choice,
+                          child: Text(choice, style: TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF274D85)),),
+                        );
+                      }).toList();
+                    },
+                  ),
                 ],
                 elevation: 0.0,
                 backgroundColor: Colors.transparent,
@@ -163,7 +180,15 @@ class _MusicHomepageState extends State<MusicHomepage> {
       ),
     );
   }
-
+  //choices method
+  void choices(String choices){
+    if(choices == ChoicesConstants.about){
+      Navigator.push(context, MaterialPageRoute(builder: (context) => AboutMe()));
+    }
+    if(choices == ChoicesConstants.contact){
+      Navigator.push(context, MaterialPageRoute(builder: (context) => ContactMe()));
+    }
+  }
   void _showExitDialog() {
     final GlobalBloc _globalBloc = Provider.of<GlobalBloc>(context);
     showDialog(

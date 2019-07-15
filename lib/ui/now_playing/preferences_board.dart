@@ -1,6 +1,6 @@
 import 'package:fdb/blocs/global.dart';
-import 'package:fdb/models/playback.dart';
-import 'package:fdb/models/playerstate.dart';
+import 'package:fdb/utils/playback.dart';
+import 'package:fdb/utils/playerstate.dart';
 import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

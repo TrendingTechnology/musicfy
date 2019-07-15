@@ -1,4 +1,4 @@
-import 'package:fdb/models/album.dart';
+import 'package:fdb/utils/album.dart';
 import 'package:fdb/ui/now_playing/empty_album_art.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';

@@ -1,6 +1,6 @@
 import 'package:fdb/blocs/global.dart';
 import 'package:fdb/common/music_icons.dart';
-import 'package:fdb/models/playerstate.dart';
+import 'package:fdb/utils/playerstate.dart';
 import 'package:fdb/ui/now_playing/album_art_container.dart';
 import 'package:fdb/ui/now_playing/empty_album_art.dart';
 import 'package:fdb/ui/now_playing/music_board_controls.dart';
@@ -62,12 +62,12 @@ class NowPlayingScreen extends StatelessWidget {
           ),
           Divider(
             color: Colors.transparent,
-            height: _screenHeight / 15,
+            height: _screenHeight / 40,
           ),
           PreferencesBoard(),
           Divider(
             color: Colors.transparent,
-            height: _screenHeight / 15,
+            height: _screenHeight / 30,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 22.0),
@@ -145,7 +145,7 @@ class NowPlayingScreen extends StatelessWidget {
           ),
           Divider(
             color: Colors.transparent,
-            height: _screenHeight / 22,
+            height: _screenHeight / 30,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0),

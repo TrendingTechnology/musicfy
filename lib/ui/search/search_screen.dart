@@ -1,5 +1,5 @@
 import 'package:fdb/blocs/global.dart';
-import 'package:fdb/models/playerstate.dart';
+import 'package:fdb/utils/playerstate.dart';
 import 'package:fdb/ui/all_songs/song_tile.dart';
 import 'package:fdb/ui/search/search_screen_bloc.dart';
 import 'package:flute_music_player/flute_music_player.dart';

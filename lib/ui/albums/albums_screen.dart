@@ -1,6 +1,6 @@
 import 'package:fdb/blocs/global.dart';
 import 'package:fdb/common/empty_screen.dart';
-import 'package:fdb/models/album.dart';
+import 'package:fdb/utils/album.dart';
 import 'package:fdb/ui/albums/album_tile.dart';
 import 'package:fdb/ui/albums/specific_album_screen.dart';
 import 'package:flutter/material.dart';

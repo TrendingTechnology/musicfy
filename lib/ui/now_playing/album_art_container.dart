@@ -47,8 +47,8 @@ class AlbumArtContainer extends StatelessWidget {
                     0.85,
                   ],
                   colors: [
-                    Color(0xFF47ACE1),
-                    Color(0xFFDF5F9D),
+                    Color(0xFF3399ff),
+                    Color(0xFFFF9933),
                   ],
                 ),
               ),
