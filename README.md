@@ -31,18 +31,18 @@ Screenshots
 <table style={border:none;}>
     <tr>
         <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/00.png"></td>
-        <td>![picture](./screenshots/01.png)</td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/01.png"></td>
     </tr>
     <tr>
-        <td>![picture](./screenshots/flutter_01.png)</td>
-        <td>![picture](./screenshots/flutter_02.png)</td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_01.png"></td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_02.png"></td>
     </tr>
     <tr>
-        <td>![picture](./screenshots/flutter_03.png)</td>
-        <td>![picture](./screenshots/flutter_04.png)</td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_03.png"></td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_04.png"></td>
     </tr>
     <tr>
-        <td>![picture](./screenshots/flutter_05.png)</td>
-        <td>![picture](./screenshots/flutter_06.png)</td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_05.png"></td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_06.png"></td>
     </tr>
 </table>
