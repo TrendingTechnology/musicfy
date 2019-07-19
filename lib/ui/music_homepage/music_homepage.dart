@@ -3,7 +3,6 @@ import 'package:fdb/ui/albums/albums_screen.dart';
 import 'package:fdb/ui/all_songs/all_songs_screen.dart';
 import 'package:fdb/ui/favorites/favorites_screen.dart';
 import 'package:fdb/ui/info/about.dart';
-import 'package:fdb/ui/info/contact.dart';
 import 'package:fdb/ui/music_homepage/bottom_panel.dart';
 import 'package:fdb/ui/now_playing/now_playing_screen.dart';
 import 'package:fdb/ui/search/search_screen.dart';
@@ -184,9 +183,6 @@ class _MusicHomepageState extends State<MusicHomepage> {
   void choices(String choices){
     if(choices == ChoicesConstants.about){
       Navigator.push(context, MaterialPageRoute(builder: (context) => AboutMe()));
-    }
-    if(choices == ChoicesConstants.contact){
-      Navigator.push(context, MaterialPageRoute(builder: (context) => ContactMe()));
     }
   }
   void _showExitDialog() {
