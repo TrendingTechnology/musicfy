@@ -25,3 +25,6 @@ Plugins used
     <li>shared_preferences: ^0.5.3+1</li>
     <li>url_launcher: ^5.1.0</li>
 </ol>
+
+Screenshots
+![picture](./screenshots/flutter_02.png)
