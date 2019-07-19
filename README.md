@@ -28,11 +28,21 @@ Plugins used
 
 Screenshots
 
-![picture](./screenshots/00.png)
-![picture](./screenshots/01.png)
-![picture](./screenshots/flutter_01.png)
-![picture](./screenshots/flutter_02.png)
-![picture](./screenshots/flutter_03.png)
-![picture](./screenshots/flutter_04.png)
-![picture](./screenshots/flutter_05.png)
-![picture](./screenshots/flutter_06.png)
+<table style={border:none;}>
+    <tr>
+        <td>![picture](./screenshots/00.png)</td>
+        <td>![picture](./screenshots/01.png)</td>
+    </tr>
+    <tr>
+        <td>![picture](./screenshots/flutter_01.png)</td>
+        <td>![picture](./screenshots/flutter_02.png)</td>
+    </tr>
+    <tr>
+        <td>![picture](./screenshots/flutter_03.png)</td>
+        <td>![picture](./screenshots/flutter_04.png)</td>
+    </tr>
+    <tr>
+        <td>![picture](./screenshots/flutter_05.png)</td>
+        <td>![picture](./screenshots/flutter_06.png)</td>
+    </tr>
+</table>
