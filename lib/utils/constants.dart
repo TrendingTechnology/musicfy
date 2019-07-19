@@ -1,7 +1,7 @@
 class ChoicesConstants{
-  static const String setting = "Settings";
+  static const String about = "About Me";
 
   static const List<String> choices = <String>[
-    setting,
+    about,
   ];
 }
