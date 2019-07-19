@@ -1,6 +1,6 @@
-# fdb
+# Musicfy
 
-A new Flutter project.
+A complete music player built with flutter
 
 ## Getting Started
 
