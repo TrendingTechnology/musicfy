@@ -30,7 +30,7 @@ Screenshots
 
 <table style={border:none;}>
     <tr>
-        <td>![picture](./screenshots/00.png)</td>
+        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/00.png"></td>
         <td>![picture](./screenshots/01.png)</td>
     </tr>
     <tr>
