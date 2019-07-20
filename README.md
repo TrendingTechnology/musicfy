@@ -42,7 +42,7 @@ Screenshots
         <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_04.png"></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_05.png"></td>
+        <td></td>
         <td><img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/flutter_06.png"></td>
     </tr>
 </table>
