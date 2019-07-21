@@ -26,6 +26,11 @@ Plugins used
     <li>url_launcher: ^5.1.0</li>
 </ol>
 
+<h3>Download the app by clicking the download button below</h3>
+<a href="https://drive.google.com/file/d/11Onu5q1uQ8k5LGCYOUWtUZTGAYL8jUS1/view?usp=sharing">
+    <img src="https://drive.google.com/file/d/11Onu5q1uQ8k5LGCYOUWtUZTGAYL8jUS1/view?usp=sharing" alt="download here" height="200" width="200">
+</a>
+
 Screenshots
 
 <table style={border:none;}>
