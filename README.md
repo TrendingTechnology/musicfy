@@ -28,7 +28,7 @@ Plugins used
 
 <h3>Download the app by clicking the download button below</h3>
 <a href="https://github.com/nittinsharma37/musicfy/releases/tag/v1.0.0">
-    <img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/down.png">
+    <img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/down.png" height="100" width="200">
 </a>
 
 Screenshots
