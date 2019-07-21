@@ -27,8 +27,8 @@ Plugins used
 </ol>
 
 <h3>Download the app by clicking the download button below</h3>
-<a href="https://drive.google.com/file/d/11Onu5q1uQ8k5LGCYOUWtUZTGAYL8jUS1/view?usp=sharing">
-    <img src="https://drive.google.com/file/d/11Onu5q1uQ8k5LGCYOUWtUZTGAYL8jUS1/view?usp=sharing" alt="download here" height="200" width="200">
+<a href="https://github.com/nittinsharma37/musicfy/releases/tag/v1.0.0">
+    <img src="https://github.com/nittinsharma37/musicfy/blob/master/screenshots/00.png">
 </a>
 
 Screenshots
