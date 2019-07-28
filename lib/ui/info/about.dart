@@ -92,7 +92,7 @@ class AboutMe extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: Text(
-                "I am Nittin Sharma a student, developer and designer based in billawar(jammu) India.\n\n Unlike every middle class guy my story is same and i belong to typical indian  village i have faced all that problems that a typical indian faces. Since 10th standard i have never used a computer. After 10th i grew up interest in computers. I worndered how all that stuff works and i started learning these things.\n\nAfter 12th i took admission in BCA course in college and currently i am pusruing this course.\n\n Apart from this course i have learned graphic designing, illustrations, editing from other sources. I am curious to learn everything in computers and i love computers and that's it",
+                "I am Nittin Sharma a student, developer and designer based in billawar(jammu) India.\n\n Unlike every middle class guy my story is same and i belong to typical indian  village i have faced all the problems that a typical indian faces. Since 10th standard i have never used a computer. After 10th i grew up interest in computers. I wondered how all that stuff works and i started learning these things.\n\nAfter 12th i took admission in BCA course in college and currently i am pursuing this course.\n\n Apart from this course i have learned graphic designing, illustrations, editing from other sources. I am curious to learn everything in computers and i love computers and that's it",
                 style: TextStyle(
                   fontSize: 18.0,
                   fontStyle: FontStyle.italic,

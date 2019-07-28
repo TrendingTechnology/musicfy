@@ -78,8 +78,8 @@ class _MusicHomepageState extends State<MusicHomepage> {
                   0.7,
                 ],
                 colors: [
-                  Color(0xFF3399ff),
                   Color(0xFFFF9933),
+                  Color(0xFF3399ff),
                 ],
               ),
             ),
